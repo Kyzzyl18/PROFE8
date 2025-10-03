@@ -1,2 +1,5 @@
 # PROFE8
-This is for the activity of PROFE8.
+
+Kyzzer Lanz R. Jallorina BSIS 4C
+
+This is for the activities of PROFE8.
