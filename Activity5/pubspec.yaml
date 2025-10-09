@@ -1,0 +1,35 @@
+name: avreserve
+description: A Flutter app for reserving audio-visual equipment with cart and media features.
+version: 1.0.0
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  video_player: ^2.7.0
+  chewie: ^1.5.0
+  audioplayers: ^5.0.0
+  flutter_iconpicker: ^3.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bronze_bundle.png
+    - assets/images/silver_bundle.png
+    - assets/images/golden_bundle.png
+    - assets/images/platinum_bundle.png
+    - assets/images/profile.jpg
+    - assets/videos/sample_mp4.mp4
+    - assets/audio/sample_mp3.mp3
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
