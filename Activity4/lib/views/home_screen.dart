@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           tabs: const [
             Tab(text: 'Home', icon: Icon(Icons.home)),
             Tab(text: 'Chats/Calls', icon: Icon(Icons.chat)),
-            Tab(text: 'My Reservations', icon: Icon(Icons.book)),
+            Tab(text: 'Reservations', icon: Icon(Icons.book)),
           ],
         ),
       ),
@@ -405,3 +405,4 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     );
   }
 }
+
